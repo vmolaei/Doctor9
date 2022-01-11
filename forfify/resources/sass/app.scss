@@ -1,8 +1,28 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
-
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+//jquery
+@import '~jquery-ui/themes/base/all.css';
+
+
+.body{
+    background-color: $background;
+}
+.navbar{
+    margin-bottom: 40px;
+    background-color:$navBar;
+    box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.3);
+
+    a{
+        color:$navBarLinkColor ;
+    }
+
+}
+
+
+
+
+
